@@ -1,0 +1,102 @@
+body{
+    font-family: 'Orelega One', cursive;
+    color:white;
+    margin:0px;
+    padding:0px;
+    background: url('gym1.png');
+    
+}
+.left{
+    position: absolute;
+   left: 34px;
+    top: 8px;
+    display:inline-block;
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top:20px;
+    display:inline-block;
+    
+}
+.mid{
+    display: block;
+    width:35%;
+    margin: 20px auto;
+   
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+  
+    display:inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+    
+}
+
+.left img{
+    width: 120px;
+    filter:invert(100%)
+}
+.left div{
+    line-height: 0px;
+    font-size: 22 px;
+    margin-top: 0;
+    text-align: center;
+}
+.btn{
+    font-family: 'Orelega One', cursive;
+    margin:0px 9 px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border:2px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.right .btn{
+    border: 2px solid white;
+
+}
+.btn:hover{
+   background-color: grey;
+}
+.container{
+    border: 2px solid white;
+    margin: 102px 38px;
+    padding:35px 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+.container h1{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.form-group input{
+    font-size: 12px;
+    font-family: cursive;
+    text-align: center;
+    margin: 3px auto;
+    width: 250px;
+    padding: 4px;
+    border: 2px solid black;
+    display:block;
+    border-radius: 7px;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
